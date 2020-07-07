@@ -1,0 +1,45 @@
+{
+  "name": "api.holybible.space",
+  "version": "0.1.0",
+  "description": "Russian Orthodox API for the Holy Bible",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon -x ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flurescein/api.holybible.space.git"
+  },
+  "keywords": [
+    "holy",
+    "bible",
+    "graphql",
+    "api"
+  ],
+  "author": "flurescein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flurescein/api.holybible.space/issues"
+  },
+  "homepage": "https://github.com/flurescein/api.holybible.space#readme",
+  "dependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.6",
+    "@types/helmet": "0.0.47",
+    "@types/node": "^14.0.14",
+    "apollo-server-express": "^2.15.1",
+    "class-validator": "^0.12.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0",
+    "helmet": "^3.23.3",
+    "nodemon": "^2.0.4",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.0",
+    "ts-node": "^8.10.2",
+    "type-graphql": "^1.0.0-rc.3",
+    "typeorm": "^0.2.25",
+    "typescript": "^3.9.6"
+  }
+}
